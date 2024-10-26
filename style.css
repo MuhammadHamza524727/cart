@@ -1,0 +1,111 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1200px;
+   
+    margin: auto;
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+
+}
+
+.cart {
+    height: 450px;
+    width: 800px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(128, 128, 128, 0.3);
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+
+
+
+}
+
+.Shopping {
+    color: white;
+    font-weight: 700;
+
+}
+
+.remove {
+    color: rgb(243, 125, 125);
+    border-bottom: red;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.headercart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: -50px;
+
+
+}
+
+.cart1 {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.cartimg1 {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cartimg2 {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ketchup {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.ml {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(241, 240, 240);
+}
+
+.addto {
+    height: 40px;
+    width: 120px;
+    background-color: hsl(84, 100%, 59%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
